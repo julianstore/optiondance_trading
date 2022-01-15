@@ -1,0 +1,30 @@
+mysql:
+  username: 'root'
+  password: '~'
+  path: '127.0.0.1:3306'
+  db-name: ''
+  config: 'charset=utf8mb4&parseTime=True&loc=Asia%2fShanghai'
+  max-idle-conns: 100
+  max-open-conns: 1000
+  log-mode: true
+
+
+zap:
+  level: 'info'
+  filename: '/var/log/option_dance_engine.log'
+  max-size: 200
+  max-age: 7
+  max-backups: 10
+
+dapp:
+  receivers:
+    - '~'
+    - '~'
+    - '~'
+  threshold: ~
+  app_id: '~'
+  session_id: '~'
+  secret: '~'
+  pin: '~'
+  pin_token: '~'
+  private_key: '~'

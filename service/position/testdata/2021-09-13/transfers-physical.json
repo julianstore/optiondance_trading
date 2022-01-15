@@ -1,0 +1,50 @@
+[
+  {
+    "transfer_id": "c6c53e70-a387-3417-9150-d1affd9f57f6",
+    "source": "POSITION_EXERCISED",
+    "detail": "61597595-9892-306f-b892-2e5a8766a824",
+    "asset_id": "965e5c6e-434c-3fa9-b780-c50f43cd955c",
+    "amount": "24000",
+    "created_at": "2021-09-22T14:33:40.6310154+08:00",
+    "user_id": "443bf7c0-308f-461e-ac0f-88ef19b9162b",
+    "client_id": "35130f25-435a-4ba1-8a28-1d816181b7e9",
+    "memo": "",
+    "trace_id": "c6c53e70-a387-3417-9150-d1affd9f57f6",
+    "passed": 0,
+    "handled": 0,
+    "opponents": "443bf7c0-308f-461e-ac0f-88ef19b9162b",
+    "threshold": 1
+  },
+  {
+    "transfer_id": "0291e34a-dca2-3675-9c7f-69b577c9747b",
+    "source": "POSITION_EXERCISED",
+    "detail": "9f997006-a1df-3f49-880b-683ca85ede43",
+    "asset_id": "dcde18b9-f015-326f-b8b1-5b820a060e44",
+    "amount": "0.99999999",
+    "created_at": "2021-09-22T14:33:40.6310154+08:00",
+    "user_id": "019308a5-e1a9-427c-af2a-e05093beedaa",
+    "client_id": "35130f25-435a-4ba1-8a28-1d816181b7e9",
+    "memo": "",
+    "trace_id": "0291e34a-dca2-3675-9c7f-69b577c9747b",
+    "passed": 0,
+    "handled": 0,
+    "opponents": "019308a5-e1a9-427c-af2a-e05093beedaa",
+    "threshold": 1
+  },
+  {
+    "transfer_id": "16ef19db-adc4-3dbc-a224-18123753d2eb",
+    "source": "POSITION_EXERCISED_REFUND",
+    "detail": "9f997006-a1df-3f49-880b-683ca85ede43",
+    "asset_id": "965e5c6e-434c-3fa9-b780-c50f43cd955c",
+    "amount": "48000",
+    "created_at": "2021-09-22T14:33:40.6310154+08:00",
+    "user_id": "019308a5-e1a9-427c-af2a-e05093beedaa",
+    "client_id": "35130f25-435a-4ba1-8a28-1d816181b7e9",
+    "memo": "",
+    "trace_id": "16ef19db-adc4-3dbc-a224-18123753d2eb",
+    "passed": 0,
+    "handled": 0,
+    "opponents": "019308a5-e1a9-427c-af2a-e05093beedaa",
+    "threshold": 1
+  }
+]

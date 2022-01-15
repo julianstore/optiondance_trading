@@ -1,0 +1,82 @@
+.option-card {
+  margin: 0 auto;
+  padding: 26px;
+  background: #FFFFFF;
+  border-radius: 12px;
+  .top{
+    .instrument {
+      display: flex;
+      align-items: center;
+      margin-bottom: 8px;
+      span.name{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 23px;
+        margin-right: 10px;
+        color: #151516;
+      }
+      span.baomai{
+        padding: 1px 8px;
+        opacity: 0.7;
+        border-radius: 5px;
+        color: #FFFFFF;
+        height: 23px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 23px;
+        display: inline-block;
+        background: #02AAB0;
+      }
+      span.youmai{
+        padding: 1px 8px;
+        opacity: 0.7;
+        border-radius: 5px;
+        color: #FFFFFF;
+        height: 23px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 23px;
+        display: inline-block;
+        background: rgba(255, 111, 97, 0.7);
+      }
+    }
+    p{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 18px;
+      color: #88888B;
+      padding-bottom: 18px;
+      border-bottom:  solid 0.5px rgba(136, 136, 139, 0.3);
+    }
+  }
+  li{
+    &:nth-child(1){
+      margin-top: 18.5px;
+    }
+    &:last-child{
+      margin:0;
+    }
+    clear: both;
+    margin-bottom: 14px;
+    .key{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 13px;
+      line-height: 20px;
+      color: #88888B;
+    }
+    .value{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: 0.04em;
+      color: #000000;
+      float: right;
+    }
+  }
+}

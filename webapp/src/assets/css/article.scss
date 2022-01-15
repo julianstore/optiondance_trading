@@ -1,0 +1,44 @@
+.article{
+  h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0.03em;
+    color: #151516;
+    margin-bottom: 48px;
+  }
+
+  h3{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #151516;
+    margin-bottom: 18px;
+  }
+
+  img{
+    width: 100%;
+    margin: 0 0 18px;
+  }
+
+  p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #151516;
+    margin-bottom: 18px;
+  }
+  .img-desc{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+    color: #88888B;
+    text-align: center;
+    margin: -3px 0 18px;
+  }
+}

@@ -1,0 +1,13 @@
+[Unit]
+Description=Option Dance Engine Daemon
+After=network.target
+
+[Service]
+User=optiondance
+Type=simple
+ExecStart=/bin/bash -c "/home/optiondance/option-dance/cmd/engine/od-engine -c /home/optiondance/node_config.yaml  -p 6100"
+Restart=on-failure
+LimitNOFILE=65536
+
+[Install]
+WantedBy=multi-user.target

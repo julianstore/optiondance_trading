@@ -1,0 +1,172 @@
+{
+  "home": {
+    "expirationDate" : "到期时间",
+    "toBeSelected": "待选取",
+    "size": "数量",
+    "minimum": "最少",
+    "maximum": "最多",
+    "date": "时机",
+    "getItNow": "立即获得",
+    "paidAmount": "支付费用",
+    "rewardTipAsk": "如果订单撮合成功,你将立即获得现金收益。",
+    "rewardTipBid": "购买保卖权益支付的费用" ,
+    "pleaseInputPrice": "请输入价格",
+    "editPricePlaceholder": "每 BTC 保卖费",
+    "expectedAnnualizedRateOfReturn": "预计年化收益率",
+    "earnTipCardDescAsk" : "{ expirationDateMonthDay } 你将获得 { sizeString } {baseCurrency}，如对方未交付{baseCurrency}，购币资金将退回至你的Mixin钱包",
+    "earnTipCardDescBid": "{expirationDateMonthDay } 你可用约定价格 { strikePrice } { quoteCurrency } 卖出 { sizeString } {baseCurrency} 或者放弃卖出",
+
+
+    "videoTutorial": "视频教程",
+    "mtgSecure": "资金安全基于Mixin Network多重签名保障",
+    "submitOrder": "提交订单",
+    "soldOut": "卖光了~",
+
+    "customExpiryDate": "自定义到期日",
+    "customStrikePrice": "自定义价格",
+    "customPrice": "自定义支付费用",
+
+    "orderConfirm": "订单确认",
+    "orderConfirmText": "在{ expiry }\n 以${ strikePriceString }的价格 {sideString }{sizeString}枚{ baseCurrency }",
+    "orderSuccess": "下单成功",
+
+    "testVersionIntro": "测试版本介绍",
+    "testVersionDesc": "欢迎使用测试版体验产品功能，在测试版中我们使用 SHIB 替代了BTC \n 使用 CNB 替代了{ quoteCurrency }。",
+
+    "unavailable": "本功能正在紧张研发测试中\n届时会面向所有用户开放"
+
+  },
+
+  "options": {
+    "statusMatching": "待撮合",
+    "statusOpen": "待到期",
+    "statusEnd": "已结束",
+    "order": "订单",
+    "contract": "合约",
+    "noOrder": "暂无订单",
+    "noContract": "暂无合约",
+
+
+    "sellPut": "优买",
+    "sellPutDesc": "涨了赚钱，跌了赚币",
+    "buyPut": "保卖",
+    "buyPutDesc": "币价归零，照卖不误",
+    "sellCall": "稳盈",
+    "sellCallDesc": "锁定收益，持币收租",
+    "buyCall": "保买",
+    "buyCallDesc": "币价上天，打折买入"
+  },
+
+  "order": {
+    "autoCancelTip": "未撮合的订单在标的到期日15:30时，进行系统自动撤单。",
+    "cancelOrder": "撤销订单",
+    "cancelOrderConfirm": "是否确认撤销订单"
+  },
+
+  "status": {
+    "matching": "待撮合",
+    "matched": "已撮和",
+    "end": "已结束",
+    "endExpiry": "已结束-到期结束",
+    "endOrderCancel": "已结束-订单撤销",
+    "endOrderMatched": "已结束-撮合结束",
+    "open": "待到期",
+    "notExercised": "未行权",
+    "waitSettlement": "待结算",
+    "exercised": "已行权"
+  },
+
+  "card": {
+    "strikePrice": "目标价格",
+    "expiryDate": "到期时间",
+    "orderStatus": "订单状态",
+    "positionStatus": "合约状态",
+    "exercisedStatus": "行权状态",
+    "totalAndClosed": "总量/已成",
+    "totalAndExercised": "总量/已行权",
+    "margin": "购币金",
+    "extraFunds": "权利金收益",
+    "funds": "支付费用",
+    "deliveryType": "结算方式",
+    "orderNum": "订单ID",
+    "positionNum": "资产ID",
+    "matchedDate": "撮成日期",
+    "size": "数量",
+    "premium": "权利金",
+    "tradedAt": "持仓变化",
+    "side": "方向"
+  },
+
+  "position": {
+    "exerciseTip": "可在到期前8小时内行权，如不需要使用权益无需操作，过期后系统自动放弃本单权益。",
+    "settlementInfo": "结算信息",
+    "indexPrice": "报价",
+    "refundMargin":"退回购币金" ,
+    "refundSize": "退回购币金购买力",
+    "saveProfitImage": "保存收益画报",
+    "exercise": "使用权益",
+    "exerciseConfirm": "确定使用权益?",
+    "exerciseDesc": "可在到期前8小时内行权",
+    "waitSettlement": "待结算",
+    "exerciseSuccess": "提交行权申请成功"
+  },
+
+
+  "faq": {
+    "commonProblem": "常见问题",
+    "whenToUseSellPut": "什么时候使用优买？",
+    "whatIsOptionDance": "Option Dance 是什么？",
+    "joinGroup": "加入交流群",
+    "odGroup": "OptionDance交流群",
+    "groupDesc": "让一部分人先富起来",
+    "whatIsOptionDanceTitle": "OptionDance\n 是什么？",
+    "odDesc": "OptionDance 是Mixin生态内的期权交易市场，也是一个被重新设计的期权交易工具，解决了传统期权交易工具复杂难用的问题，普通人也可以轻松上手。",
+    "productIntro": "产品介绍"
+  },
+  "income": {
+    "incomeAnalysis": "收益分析",
+    "sellPut": "OptionDance 优买收益",
+    "sellPutEarned": "OptionDance 优买购入BTC",
+    "totalEarned": "累计购入",
+    "totalProfit": "合计收益"
+  },
+
+  "indexPrice": {
+    "btcIndexPrice": "BTC 报价日志",
+    "btcIndexPriceDesc": "计算逻辑：从8个世界主流交易所获取 BTC 价格(Bitfinex，Bitstamp，Bittrex，Coinbase Pro，Gemini，Itbit，Kraken，LMAX Digital)。 然后，对交易所报价进行排序，截断中位数价格周围 0.5% 的价差，并以相同的权重取平均值获得 BTC 指数。结算 BTC 报价使用到期前最后 30 分钟 BTC 指数的平均值计算。"
+  },
+
+  "userCenter": {
+    "userCenter":"个人中心",
+    "position": "持仓",
+    "income": "收益分析",
+    "setting": "设置",
+    "commonProblem": "常见问题",
+    "joinGroup": "加入交流群"
+  },
+
+  "settings": {
+    "setting": "设置",
+    "simpleMode": "开启简版",
+    "simpleModeDesc": "简单高效，适合普通投资者",
+    "cashDelivery": "现金结算",
+    "cashDeliveryDesc": "使用pUSD结算"
+  },
+
+  "global": {
+    "operationConfirm": "操作确认",
+    "cancel": "取消",
+    "confirm": "确认",
+    "submit": "提交",
+    "save": "保存",
+    "know": "知道了",
+    "viewDetail": "查看详情"
+  },
+
+  "message": {
+    "expiryDateTip": "请选择到期日",
+    "optionSizeTip": "请输入正确的数量",
+    "optionPriceTip": "保卖费需要大于0",
+    "formatError": "格式不正确: {value}"
+  }
+}

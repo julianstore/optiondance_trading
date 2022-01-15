@@ -1,0 +1,321 @@
+.home-header{
+  .profile-icon{
+    margin-right: 20px;
+  }
+  z-index: 1200;
+  background-color: #F7F7F7;
+  padding: 10px 24px;
+  width: 100%;
+  display: block;
+  top:0;
+  box-sizing: border-box;
+  position: fixed;
+  .test-version{
+    margin-left: 13px;
+  }
+
+  .sell-put-icon{
+    transform: translateZ(0);
+    filter: drop-shadow(0px 4px 13px rgba(239, 155, 155, 0.25));;
+  }
+  .buy-put-icon{
+    transform: translateZ(0);
+    filter: drop-shadow(0px 4px 13px rgba(2, 176, 175, 0.19));;
+  }
+  .sell-call-icon{
+    transform: translateZ(0);
+    filter:  drop-shadow(0px 4px 13px rgba(255, 164, 53, 0.19));
+  }
+  .buy-call-icon{
+    transform: translateZ(0);
+    filter:  drop-shadow(0px 4px 13px rgba(65, 162, 228, 0.25));
+  }
+
+}
+.home{
+  padding: 0 24px;
+  margin-top: 63px;
+  .top-card-group{
+    margin: 0 0 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .top-card{
+      margin-right: 10px;
+      width: 50%;
+      height: 103px;
+      background: #FFFFFF;
+      border-radius: 12px;
+      padding: 16px 20px;
+      box-sizing: border-box;
+      &:last-child{
+        margin-right: 0;
+        text-align: right;
+      }
+      .title{
+        margin-bottom: 7px;
+        span{
+          margin-right: 6px;
+          display: inline-block;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 14px;
+          line-height: 21px;
+          color: #151516;
+        }
+      }
+
+      .content{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 0.02em;
+        color: #151516;
+        margin-bottom: 5px;
+      }
+      .to-be-selected{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 22px;
+        text-align: right;
+        letter-spacing: 0.02em;
+        color: #88888B;
+        margin-bottom: 3px;
+      }
+      .sold-out{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 22px;
+        text-align: left;
+        letter-spacing: 0.02em;
+        color: #88888B;
+        margin-bottom: 3px;
+      }
+      .footer{
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 18px;
+        color: #88888B;
+      }
+    }
+  }
+  .amount-card{
+    z-index: 200;
+    margin: 0 auto 14px;
+    width: 100%;
+    height: 157px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    padding: 34px 0 18px;
+    box-sizing: border-box;
+    position: relative;
+    img.btc-mask{
+      z-index: 999;
+      position: absolute;
+      top:-32px;
+      left: 0;
+      right: 0;
+      margin: auto;
+      border-radius: 50%;
+      transform: translateZ(0);
+      filter: drop-shadow(0px 6px 12px rgba(247, 147, 26, 0.32));
+    }
+    .circle-mask{
+      z-index: 100;
+      position: absolute;
+      width: 66px;
+      height: 33px;
+      border-radius: 66px 66px 0 0;
+      top:-40px;
+      left: 0;
+      right: 0;
+      margin: auto;
+      background-color: #F7F7F7;
+    }
+    .title{
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 21px;
+      text-align: center;
+      color: #151516;
+      margin-bottom: 5px;
+    }
+    input{
+      text-align: center;
+      display: block;
+      margin: 0 auto 6px;
+      height: 60px;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 42px;
+      line-height: 48px;
+      letter-spacing: 0.02em;
+      color: #151516;
+      max-width: 100%;
+      border: none;
+    }
+    .approximate{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 16px;
+      text-align: center;
+      color: #88888B;
+    }
+    .min-amount-tip{
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 21px;
+      text-align: center;
+      color: #FF6F61;
+    }
+  }
+  .card{
+    width: 100%;
+    height: 68px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    box-sizing: border-box;
+    img{
+      margin-right: 14px;
+    }
+  }
+  .reward-card{
+    margin:0 auto 10px;
+    position: relative;
+    .info-icon{
+      margin-left: 10px;
+      border-radius: 50%;
+      box-shadow: 0px 2.53333px 3.8px rgba(196, 196, 196, 0.33);
+    }
+    .amount{
+      span{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 0.02em;
+      }
+      position: absolute;
+      right: 16px;
+    }
+    span.reward-amount {
+      background: linear-gradient(to right,rgba(96, 37, 245, 1),rgba(255, 85, 85, 1));
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+    span.fee-amount {
+      margin-right: 8px;
+      background: linear-gradient(to right,rgba(116, 116, 191, 1),rgba(52, 138, 199, 1));
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+    span.fee-amount-tip{
+      margin-right: 8px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 21px;
+      color: #88888B;
+    }
+    img{
+      margin: 0;
+    }
+    img.main-icon{
+      margin-right: 10px;
+    }
+    .reward-tip{
+      //width: 302px;
+      background: #FFFFFF;
+      box-shadow: 0px 8px 36px rgba(0, 0, 0, 0.16);
+      border-radius: 12px;
+      position: absolute;
+      top: -44px;
+      left: 12px;
+      padding: 16px 12px;
+      box-sizing: border-box;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 21px;
+      z-index: 1500;
+    }
+    .baomai{
+      left: 48px;
+    }
+  }
+  .reward-rate-card{
+
+  }
+  .tip-card{
+    margin: 0 auto 20px ;
+    span{
+      font-style: normal;
+      font-weight: 300;
+      font-size: 12px;
+      line-height: 18px;
+      color: #151516;
+    }
+  }
+  .video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img{
+      display: inline-block;
+      margin-right: 4px;
+    }
+    margin:32px auto 0;
+    span{
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 21px;
+      color: #88888B;
+    }
+  }
+}
+.checkout{
+  padding: 10px 0 25px;
+  background-color: #F7F7F7;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  margin: 0 auto 0;
+  .guard-tip{
+    text-align: center;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: #88888B;
+    opacity: 0.7;
+  }
+  .submit-order-btn{
+    display: block;
+    height: 58px;
+    margin: 0 auto;
+    width: calc(100% - 48px);
+    background: #151516;
+    box-shadow: 0px 7px 21px rgba(0, 0, 0, 0.16);
+    border-radius: 8px;
+    span{
+      font-weight: 600;
+      font-size: 17px;
+      line-height: 25px;
+      text-align: center;
+      color: #FFFFFF;
+    }
+  }
+}

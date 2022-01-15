@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,viewport-fit=cover"/>
+      <meta name="theme-color" content="#F7F7F7">
+      <link rel="icon"  href="option_dance_logo.png" />
+      <title>OptionDance</title>
+
+      <!-- <link rel="preload" href="/font/Inter-italic.var.woff2" as="font" type="font/woff2" crossorigin="anonymous"> -->
+      <style>
+          #loading{
+              position: fixed;
+              background: rgba(255, 255, 255, 0.8);
+              -webkit-backdrop-filter: blur(60px);
+              backdrop-filter: blur(60px);
+              margin: 0;
+              top: 0;
+              right: 0;
+              bottom: 0;
+              left: 0;
+              transition: opacity .3s;
+              z-index: 2000;
+          }
+          .lds-ring {
+              position: fixed;
+              margin: auto;
+              top: 0;
+              right: 0;
+              bottom: 0;
+              left: 0;
+              width: 46px;
+              height: 46px;
+          }
+          .lds-ring div {
+              position: fixed;
+              margin: 0;
+              width: 41px;
+              height: 41px;
+              border: 5px solid;
+              border-radius: 50%;
+              animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+              border-color: #0366d6 transparent transparent transparent;
+          }
+          .lds-ring div:nth-child(1) {
+              animation-delay: -0.45s;
+          }
+          .lds-ring div:nth-child(2) {
+              animation-delay: -0.3s;
+          }
+          .lds-ring div:nth-child(3) {
+              animation-delay: -0.15s;
+          }
+          @keyframes lds-ring {
+              0% {
+                  transform: rotate(0deg);
+              }
+              100% {
+                  transform: rotate(360deg);
+              }
+          }
+          .tab-loading {
+              position: fixed;
+              margin: 0;
+              top: 0;
+              right: 0;
+              bottom: 0;
+              left: 0;
+              z-index: 2000;
+          }
+          .tab-loading .center {
+              width: 200px;
+              position: fixed;
+              top: 0;
+              right: 0;
+              bottom: 0;
+              left: 0;
+              margin: auto;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-direction: column;
+          }
+          .tab-loading .center #t-loader {
+              width: 32px;
+              height: 32px;
+              transform-origin: center center;
+              -webkit-animation: spin 1s linear 1s 5 alternate;
+              animation: spin 1s linear infinite;
+          }
+          @-webkit-keyframes spin {
+              from {
+                  -webkit-transform: rotate(0deg);
+              }
+              to {
+                  -webkit-transform: rotate(360deg);
+              }
+          }
+          @keyframes spin {
+              from {
+                  transform: rotate(0deg);
+              }
+              to {
+                  transform: rotate(360deg);
+              }
+          }
+      </style>
+  </head>
+  <body>
+      <div id="loading">
+          <div class="tab-loading">
+              <div class="center">
+                  <div id="t-loader">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32"
+                           style="width: 100%; height: 100%; transform: translate3d(0,0,0);" preserveAspectRatio="xMidYMid meet">
+                          <defs>
+                              <clipPath id="__lottie_element_2">
+                                  <rect width="32" height="32" x="0" y="0"></rect>
+                              </clipPath>
+                          </defs>
+                          <g clip-path="url(#__lottie_element_2)">
+                              <animateTransform attributeType="xml" attributeName="transform" type="rotate" valuesv="0 20 20;360 20 20" dur="3s"  repeatCount="indefinite" />
+
+                              <g style="display: block;" transform="matrix(1,0,0,1,0,0)" opacity="1">
+                                  <g opacity="1" transform="matrix(1,0,0,1,16,16)"></g>
+                                  <g opacity="1" transform="matrix(1,0,0,1,0,0)">
+                                      <path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(195,204,228)"
+                                            stroke-opacity="1" stroke-width="3"
+                                            d=" M16,2.6670000553131104 C16,2.6670000553131104 16,5.334000110626221 16,5.334000110626221"></path>
+                                  </g>
+                                  <g opacity="1" transform="matrix(1,0,0,1,22,5.607999801635742)">
+                                      <path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(195,204,228)"
+                                            stroke-opacity="1" stroke-width="3"
+                                            d=" M0.6669999957084656,-1.1549999713897705 C0.6669999957084656,-1.1549999713897705 -0.6669999957084656,1.1549999713897705 -0.6669999957084656,1.1549999713897705"></path>
+                                  </g>
+                                  <g opacity="1" transform="matrix(1,0,0,1,26.392000198364258,10)">
+                                      <path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(195,204,228)"
+                                            stroke-opacity="1" stroke-width="3"
+                                            d=" M1.1549999713897705,-0.6669999957084656 C1.1549999713897705,-0.6669999957084656 -1.1549999713897705,0.6669999957084656 -1.1549999713897705,0.6669999957084656"></path>
+                                  </g>
+                                  <g opacity="1" transform="matrix(1,0,0,1,0,0)">
+                                      <path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(195,204,228)"
+                                            stroke-opacity="1" stroke-width="3"
+                                            d=" M29.33300018310547,16 C29.33300018310547,16 26.66699981689453,16 26.66699981689453,16"></path>
+                                  </g>
+                                  <g opacity="1" transform="matrix(1,0,0,1,26.392000198364258,22)">
+                                      <path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(195,204,228)"
+                                            stroke-opacity="1" stroke-width="3"
+                                            d=" M1.1549999713897705,0.6669999957084656 C1.1549999713897705,0.6669999957084656 -1.1549999713897705,-0.6669999957084656 -1.1549999713897705,-0.6669999957084656"></path>
+                                  </g>
+                                  <g opacity="1" transform="matrix(1,0,0,1,22,26.392000198364258)">
+                                      <path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(195,204,228)"
+                                            stroke-opacity="1" stroke-width="3"
+                                            d=" M0.6669999957084656,1.1549999713897705 C0.6669999957084656,1.1549999713897705 -0.6669999957084656,-1.1549999713897705 -0.6669999957084656,-1.1549999713897705"></path>
+                                  </g>
+                                  <g opacity="1" transform="matrix(1,0,0,1,0,0)">
+                                      <path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(195,204,228)"
+                                            stroke-opacity="1" stroke-width="3"
+                                            d=" M16,29.33300018310547 C16,29.33300018310547 16,26.666000366210938 16,26.666000366210938"></path>
+                                  </g>
+                                  <g opacity="1" transform="matrix(1,0,0,1,10,26.392000198364258)">
+                                      <path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(195,204,228)"
+                                            stroke-opacity="1" stroke-width="3"
+                                            d=" M-0.6669999957084656,1.1549999713897705 C-0.6669999957084656,1.1549999713897705 0.6669999957084656,-1.1549999713897705 0.6669999957084656,-1.1549999713897705"></path>
+                                  </g>
+                                  <g opacity="1" transform="matrix(1,0,0,1,5.607999801635742,22)">
+                                      <path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(195,204,228)"
+                                            stroke-opacity="1" stroke-width="3"
+                                            d=" M-1.1540000438690186,0.6669999957084656 C-1.1540000438690186,0.6669999957084656 1.1540000438690186,-0.6669999957084656 1.1540000438690186,-0.6669999957084656"></path>
+                                  </g>
+                                  <g opacity="1" transform="matrix(1,0,0,1,0,0)">
+                                      <path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(195,204,228)"
+                                            stroke-opacity="1" stroke-width="3"
+                                            d=" M2.6670000553131104,16 C2.6670000553131104,16 5.333000183105469,16 5.333000183105469,16"></path>
+                                  </g>
+                                  <g opacity="1" transform="matrix(1,0,0,1,5.607999801635742,10)">
+                                      <path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(195,204,228)"
+                                            stroke-opacity="1" stroke-width="3"
+                                            d=" M-1.1540000438690186,-0.6669999957084656 C-1.1540000438690186,-0.6669999957084656 1.1540000438690186,0.6669999957084656 1.1540000438690186,0.6669999957084656"></path>
+                                  </g>
+                                  <g opacity="1" transform="matrix(1,0,0,1,10,5.607999801635742)">
+                                      <path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(195,204,228)"
+                                            stroke-opacity="1" stroke-width="3"
+                                            d=" M-0.6669999957084656,-1.1549999713897705 C-0.6669999957084656,-1.1549999713897705 0.6669999957084656,1.1549999713897705 0.6669999957084656,1.1549999713897705"></path>
+                                  </g>
+                              </g>
+                          </g>
+                      </svg>
+                  </div>
+              </div>
+          </div>
+      </div>
+    <div id="app"></div>
+      <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

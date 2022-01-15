@@ -1,0 +1,173 @@
+{
+  "home": {
+    "expirationDate" : "到期時間",
+    "toBeSelected": "待選取",
+    "size": "數量",
+    "minimum": "最少",
+    "maximum": "最多",
+    "date": "時機",
+    "getItNow": "立即獲得",
+    "paidAmount": "支付費用",
+    "rewardTipAsk": "如果訂單撮合成功,你將立即獲得現金收益。",
+    "rewardTipBid": "購買保賣權益支付的費用" ,
+    "pleaseInputPrice": "請輸入價格",
+    "editPricePlaceholder": "每 BTC 保賣費",
+    "expectedAnnualizedRateOfReturn": "預計年化收益率",
+    "earnTipCardDescAsk" : "{ expirationDateMonthDay } 你將獲得 { sizeString } {baseCurrency}，如對方未交付{baseCurrency}，購幣資金將退回至你的Mixin錢包",
+    "earnTipCardDescBid": "{expirationDateMonthDay } 你可用約定價格 { strikePrice } { quoteCurrency } 賣出 { sizeString } {baseCurrency} 或者放棄賣出",
+
+
+    "videoTutorial": "視頻教程",
+    "mtgSecure": "資金安全基於Mixin Network多重簽名保障",
+    "submitOrder": "提交訂單",
+    "soldOut": "賣光了~",
+
+    "customExpiryDate": "自定義到期日",
+    "customStrikePrice": "自定義價格",
+    "customPrice": "自定義支付費用",
+
+    "orderConfirm": "訂單確認",
+    "orderConfirmText": "在{ expiry }\n 以${ strikePriceString }的價格 {sideString }{sizeString}枚{ baseCurrency }",
+    "orderSuccess": "下單成功",
+
+    "testVersionIntro": "測試版本介紹",
+    "testVersionDesc": "歡迎使用測試版體驗產品功能，在測試版中我們使用 SHIB 替代了BTC \n 使用 CNB 替代了{ quoteCurrency }。",
+
+    "unavailable": "本功能正在緊張研發測試中\n屆時會面向所有用戶開放"
+
+  },
+
+  "options": {
+    "statusMatching": "待撮合",
+    "statusOpen": "待到期",
+    "statusEnd": "已結束",
+    "order": "訂單",
+    "contract": "合約",
+    "noOrder": "暫無訂單",
+    "noContract": "暫無合約",
+
+
+    "sellPut": "優買",
+    "sellPutDesc": "漲了賺錢，跌了賺幣",
+    "buyPut": "保賣",
+    "buyPutDesc": "幣價歸零，照賣不誤",
+    "sellCall": "穩盈",
+    "sellCallDesc": "鎖定收益，持幣收租",
+    "buyCall": "保買",
+    "buyCallDesc": "幣價上天，打折買入"
+  },
+
+  "order": {
+    "autoCancelTip": "未撮合的訂單在標的到期日15:30時，進行系統自動撤單。",
+    "cancelOrder": "撤銷訂單",
+    "cancelOrderConfirm": "是否確認撤銷訂單"
+  },
+
+  "status": {
+    "matching": "待撮合",
+    "matched": "已撮和",
+    "end": "已結束",
+    "endExpiry": "已結束-到期結束",
+    "endOrderCancel": "已結束-訂單撤銷",
+    "endOrderMatched": "已結束-撮合結束",
+    "open": "待到期",
+    "notExercised": "未行權",
+    "waitSettlement": "待結算",
+    "exercised": "已行權"
+  },
+
+  "card": {
+    "strikePrice": "目標價格",
+    "expiryDate": "到期時間",
+    "orderStatus": "訂單狀態",
+    "positionStatus": "合約狀態",
+    "exercisedStatus": "行權狀態",
+    "totalAndClosed": "總量/已成",
+    "totalAndExercised": "總量/已行權",
+    "margin": "購幣金",
+    "extraFunds": "額外收益",
+    "funds": "支付費用",
+    "deliveryType": "結算方式",
+    "orderNum": "訂單ID",
+    "positionNum": "資產ID",
+    "matchedDate": "撮成日期",
+    "size": "數量",
+    "premium": "權利金",
+    "tradedAt": "持倉變化",
+    "side": "方向"
+  },
+
+  "position": {
+    "exerciseTip": "可在到期前8小時內行權，如不需要使用權益無需操作，過期後系統自動放棄本單權益。",
+    "settlementInfo": "結算信息",
+    "indexPrice": "報價",
+    "refundMargin":"退回購幣金" ,
+    "refundSize": "退回購幣金購買力",
+    "saveProfitImage": "保存收益畫報",
+    "exercise": "使用權益",
+    "exerciseConfirm": "確定使用權益?",
+    "exerciseDesc": "可在到期前8小時內行權",
+    "waitSettlement": "待結算",
+    "exerciseSuccess": "提交行權申請成功"
+  },
+
+
+  "faq": {
+    "commonProblem": "常見問題",
+    "whenToUseSellPut": "什麽時候使用優買？",
+    "whatIsOptionDance": "Option Dance 是什麽？",
+    "joinGroup": "加入交流群",
+    "odGroup": "OptionDance交流群",
+    "groupDesc": "讓一部分人先富起來",
+    "whatIsOptionDanceTitle": "OptionDance\n 是什麽？",
+    "odDesc": "OptionDance 是Mixin生態內的期權交易市場，也是一個被重新設計的期權交易工具，解決了傳統期權交易工具復雜難用的問題，普通人也可以輕松上手。",
+    "productIntro": "產品介紹"
+  },
+  "income": {
+    "incomeAnalysis": "收益分析",
+    "sellPut": "OptionDance 優買收益",
+    "sellPutEarned": "OptionDance 優買購入BTC",
+    "totalEarned": "累計購入",
+    "totalProfit": "合計收益"
+  },
+
+  "indexPrice": {
+    "btcIndexPrice": "BTC 報價日誌",
+    "btcIndexPriceDesc": "計算邏輯：從十一個世界主流交易所獲取 BTC 價格，並排除所有斷開連接、管理性關閉和檢測到無效數據的情況。 然後，對剩余的交易所報價進行排序，截斷中位數價格周圍 0.5% 的價差，並以相同的權重取平均值獲得 BTC 指數。BTC 報價使用到期前最後 30 分鐘 BTC 指數的平均值計算。"
+
+  },
+
+  "userCenter": {
+    "userCenter":"個人中心",
+    "position": "持倉",
+    "income": "收益分析",
+    "setting": "設置",
+    "commonProblem": "常見問題",
+    "joinGroup": "加入交流群"
+  },
+
+  "settings": {
+    "setting": "設置",
+    "simpleMode": "開啟簡版",
+    "simpleModeDesc": "簡單高效，適合普通投資者",
+    "cashDelivery": "現金結算",
+    "cashDeliveryDesc": "使用pUSD結算"
+  },
+
+  "global": {
+    "operationConfirm": "操作確認",
+    "cancel": "取消",
+    "confirm": "確認",
+    "submit": "提交",
+    "save": "保存",
+    "know": "知道了",
+    "viewDetail": "查看詳情"
+  },
+
+  "message": {
+    "expiryDateTip": "請選擇到期日",
+    "optionSizeTip": "請輸入正確的數量",
+    "optionPriceTip": "保賣費需要大於0",
+    "formatError": "格式不正確: {value}"
+  }
+}

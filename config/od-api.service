@@ -1,0 +1,13 @@
+[Unit]
+Description=Option Dance Api Server
+After=network.target
+
+[Service]
+User=optiondance
+Type=simple
+ExecStart=/bin/bash -c "/home/optiondance/option-dance/cmd/api/od-api -c /home/optiondance/api_config.yaml"
+Restart=on-failure
+LimitNOFILE=65536
+
+[Install]
+WantedBy=multi-user.target
